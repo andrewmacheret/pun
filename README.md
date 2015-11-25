@@ -10,6 +10,7 @@ Prereqs:
 
 Installation steps:
 * `git clone <clone url>`
+* Edit the path to `pun.py` in `index.shtml` as needed
 
 Test it:
 * Open `index.shtml` in a browser. For testing purposes, if you don't have a web server, running `python -m SimpleHTTPServer` in the project directory and navigating to [http://localhost:8000](http://localhost:8000) should do the trick.

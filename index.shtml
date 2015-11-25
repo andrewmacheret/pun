@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="pun.css">
+<title>Random Pun</title>
+</head>
+<body>
+
+<h1><!--#exec cmd="/home/ubuntu/servers/pun/pun.py" --></h1>
+
+<!-- Powered by: https://github.com/andrewmacheret/pun -->
+
+</body>
+</html>
+
+

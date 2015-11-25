@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Random Pun</title>
+<link rel="stylesheet" type="text/css" href="pun.css">
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="generate.js"></script>
+</head>
+<body>
+
+<form id="pun-form">
+  <h1 id="pun"><!--#exec cmd="/home/ubuntu/servers/pun/pun.py" --></h1>
+  <input type="text" id="phrase">
+  <input type="submit" id="go" value="Go">
+  <input type="button" id="skip" value="Skip">
+</form>
+
+<!-- Powered by: https://github.com/andrewmacheret/pun -->
+</body>
+</html>
+
+

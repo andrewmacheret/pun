@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Random Pun</title>
+<link rel="stylesheet" type="text/css" href="pun.css">
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="play.js"></script>
+</head>
+<body>
+
+<form id="quiz-form">
+  <h1 id="question">[loading ...]</h1>
+  <input id="guess" type="text">
+  <input id="guess-button" type="submit" value="Guess">
+  <h1 id="correct" style="display: none;">Correct!</h1>
+  <h1 id="wrong" style="display: none;">Wrong!</h1>
+  <input id="next" type="button" value="Next" style="display: none;">
+
+  <h1>
+    <span id="score-label">Score:</span>
+    <span id="score">0</span>
+  </h1>
+
+  <h1 id="answer" style="display: none;"></h1>
+</form>
+
+<!-- Powered by: https://github.com/andrewmacheret/pun -->
+</body>
+</html>
+
+

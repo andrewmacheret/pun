@@ -1,0 +1,9 @@
+html {
+  font-family: sans-serif;
+}
+input {
+  font-size: 2em;
+}
+#phrase {
+  width: 600px;
+}
